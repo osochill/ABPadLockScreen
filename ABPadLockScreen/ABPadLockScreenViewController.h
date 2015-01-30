@@ -41,6 +41,8 @@
 @property (nonatomic, assign, readonly) NSInteger remainingAttempts;
 
 - (void)setAllowedAttempts:(NSInteger)allowedAttempts;
+- (void)setTotalAttempts:(NSInteger)totalAttempts;
+- (void)setRemainingAttempts:(NSInteger)remainingAttempts;
 
 - (void)setLockedOutText:(NSString *)title;
 - (void)setPluralAttemptsLeftText:(NSString *)title;

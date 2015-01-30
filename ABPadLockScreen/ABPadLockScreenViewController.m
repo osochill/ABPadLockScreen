@@ -68,6 +68,21 @@
     _remainingAttempts = allowedAttempts;
 }
 
+#pragma mark - 
+#pragma amrk - Total
+- (void)setTotalAttempts:(NSInteger)totalAttempts
+{
+    _totalAttempts = totalAttempts;
+}
+
+#pragma mark -
+#pragma amrk - Remaining
+- (void)setRemainingAttempts:(NSInteger)remainingAttempts
+{
+    _remainingAttempts = remainingAttempts;
+}
+
+
 #pragma mark -
 #pragma mark - Localisation Methods
 - (void)setLockedOutText:(NSString *)title
